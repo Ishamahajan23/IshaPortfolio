@@ -763,7 +763,7 @@ textarea .form-control {
     .project-1 {
 
         width: 1570px;
-        height: 950px;
+        height: 680px;
         background-color: rgba(0, 0, 0, 0.774);
         box-shadow: -8px -5px 12px rgba(127, 127, 127, 0.795), 5px 10px 12px rgb(0, 0, 0);
         color: white;
@@ -1362,8 +1362,8 @@ textarea .form-control {
     .resume {
         font-size: 1rem;
 
-        height: 680%;
-
+        height: 700%;
+        margin-top:10px;
         width: 100%;
 
     }
