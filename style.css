@@ -19,7 +19,7 @@ body {
     box-sizing: content-box;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.774);
-    background: url('desktop1.jpg') no-repeat;
+    background: url('desktop2.jpg') no-repeat;
     background-size: 100% 100%;
     background-position: center;
     display: flex;
@@ -595,7 +595,7 @@ textarea .form-control {
         align-items: center;
 
         background-color: rgba(0, 0, 0, 0.774);
-        background: url('desktop1.jpg') no-repeat;
+        background: url('desktop2.jpg') no-repeat;
         background-size: 100% 100%;
         background-position: center;
         display: flex;
@@ -1170,10 +1170,10 @@ textarea .form-control {
         height: 80%;
 
         background-color: rgba(0, 0, 0, 0.774);
-        background: url('desktop1.jpg') no-repeat;
+        background: url('desktop2.jpg') no-repeat;
         width: 100%;
         font-size: 1rem;
-        background-position: right;
+        background-position: top;
         background-size: cover;
     }
 
