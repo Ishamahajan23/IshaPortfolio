@@ -45,7 +45,7 @@ body {
 
 .container h1 {
     font-size: 5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 
 
@@ -67,7 +67,7 @@ span {
 
 .container p {
     font-size: 2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border: 2rem;
     text-align: center;
@@ -606,7 +606,7 @@ textarea .form-control {
 
     .container h1 {
         font-size: 5rem;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         text-align: center;
 
     }
@@ -640,7 +640,7 @@ textarea .form-control {
 
     .container p {
         font-size: 2rem;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-weight: bold;
         border: 2rem;
 
