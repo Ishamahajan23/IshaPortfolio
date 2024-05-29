@@ -13,7 +13,7 @@ body {
 
 
 }
-
+/* 
 .container {
     width: 100%;
     box-sizing: content-box;
@@ -328,7 +328,7 @@ h1 {
 .project-1:hover {
     background-color: rgb(255, 126, 126);
     color: black;
-    /* transform: scale(1.1); */
+   
 
 }
 
@@ -577,7 +577,7 @@ textarea .form-control {
     left: 120px;
     top: 50px;
 }
-
+ */
 @media only screen and (max-width:1920px) {
 
     html,
@@ -828,6 +828,7 @@ textarea .form-control {
         height: 20%;
 
         display: flex;
+          justify-content: space-between;
         font-size: 3rem;
         color: rgb(255, 255, 255);
         background-color: rgb(57, 57, 57);
@@ -838,28 +839,26 @@ textarea .form-control {
 
 
 
-    .con img {
-        margin-right: 40px;
 
-
-        margin-left: 20px;
-        height: 100px;
-        font-size: 1rem;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-        padding-left: 40px;
-        word-wrap: break-word;
-        transition: all;
-        transition-duration: 1s;
-
+.con {
+     
+        display: flex;
+        justify-content: space-between;
+        
+       
+       
 
     }
+.con i{
+    width: 200px;
+    height: 100px;
+    transition: all;
+    transition-duration: 1s;
 
-
-    .con:hover {
+}
+    .con i:hover {
         transform: scale(1.2);
     }
-
     .contact1 {
         margin: 130px;
         padding: 40px 70px;
@@ -1301,7 +1300,7 @@ textarea .form-control {
     }
    
 #box1 ol{
-    width: 40%;
+    width:20%;
     word-wrap: break-word;
 }
 
@@ -1336,7 +1335,7 @@ textarea .form-control {
 
     #box1 li,
     #box3 li {
-        width: 300px;
+   
         position: relative;
         left: 50px;
         top: 50px;
@@ -1356,7 +1355,7 @@ textarea .form-control {
         width: 100px;
         position: relative;
         left: 90px;
-        top: 20px;
+        top: 10px;
     }
 
     .resume {
@@ -1451,8 +1450,8 @@ textarea .form-control {
         height: 15%;
 
         font-size: 1rem;
-        display: grid;
-        grid-template-columns: 50px 30px 30px 30px 30px;
+         display: flex;
+        justify-content: space-between;
         color: rgb(255, 255, 255);
         background-color: rgb(79, 79, 79);
         font-weight: bold;
@@ -1460,25 +1459,22 @@ textarea .form-control {
 
     }
 
-    .con img {
 
+  .con {
+      
+      
+        display: flex;
+        justify-content: space-between;
 
-        height: 20px;
-
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-
+    }
+    .con i{
+       width: 30px;
         transition: all;
         transition-duration: 1s;
-
-
     }
-
-    .con:hover {
+    .con i:hover {
         transform: scale(1.2);
     }
-
     .contact1 {
 
         margin-left: 20px;
