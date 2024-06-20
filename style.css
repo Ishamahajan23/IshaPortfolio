@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -1299,9 +1300,9 @@ header input {
     }
 
     #contain {
-        width: 300px;
+        width: 350px;
         text-align: center;
-        
+        font-family: 'Times New Roman', Times, serif;
 
 
     }
@@ -1375,6 +1376,7 @@ header input {
     }
 
     button {
+        margin-top: 10px;
         font-size: 1rem;
         padding: 5px 20px;
         border-style: groove;
@@ -1390,6 +1392,7 @@ header input {
 
     button a {
         text-decoration: none;
+        color: white;
     }
 
     .box {
@@ -1403,7 +1406,8 @@ header input {
 
     #box1,
     #box2,
-    #box3 {
+    #box3,
+    #box4{
 
         width: 80%;
         height: 410px;
@@ -1421,16 +1425,16 @@ header input {
 
     }
    
-#box1 ol{
+/* #box1 ol{
     width:15%;
     word-wrap: break-word;
-}
+} */
 
     #box2 h4,
     #box3 h4,
-    #box1 h4 {
+    #box1 h4, #box4 h4{
         position: relative;
-        top: 50px;
+        top: 20px;
         left: 60px;
 
         padding-top: 20px;
@@ -1441,7 +1445,7 @@ header input {
 
     }
 
-    #box2 p {
+    #box2 p ,#box4 p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         width: 270px;
         position: relative;
@@ -1457,10 +1461,10 @@ header input {
 
     #box1 li,
     #box3 li {
-   
+        width: 270px;
         position: relative;
-        left: 50px;
-        top: 50px;
+        left: 30px;
+        top: 30px;
         right: 5%;
         padding-top: 10px;
         font-size: 0.9rem;
@@ -1477,13 +1481,13 @@ header input {
         width: 100px;
         position: relative;
         left: 90px;
-        top: 10px;
+        top: 30px;
     }
 
     .resume {
         font-size: 1rem;
 
-        height: 700%;
+        height: 380%;
         margin-top:10px;
         width: 100%;
 
@@ -1497,7 +1501,7 @@ header input {
     .project {
 
         width: 100%;
-        height: 550px;
+        height: 500px;
 
         color: rgb(255, 255, 255);
         margin-left: 0px;
@@ -1529,11 +1533,11 @@ header input {
     .project img,
     .project-1 img {
 
-        border-radius: 2rem;
+        border-radius: 1rem;
         border-style: groove;
-        width: 300px;
+        width: 350px;
         position: relative;
-        right: 25px;
+        right: 35px;
 
 
 
@@ -1550,7 +1554,7 @@ header input {
 
     .project a,
     .project-1 a {
-        color: rgb(0, 0, 0);
+        color: #dc3232;
         font-size: 0.8rem;
     }
 
@@ -1602,7 +1606,7 @@ header input {
         margin-left: 20px;
 
         width: 80%;
-        height: 50%;
+        height: 75%;
         font-size: 1rem;
         background-color: rgba(0, 0, 0, 0.774);
         border-radius: 2rem;
@@ -1626,7 +1630,7 @@ header input {
         position: relative;
         top: 20;
         width: 100%;
-        height: 150%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -1698,3 +1702,4 @@ header input {
 
 
 }
+
