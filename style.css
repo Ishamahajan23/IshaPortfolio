@@ -22,9 +22,9 @@
 }
 
 #contain {
-    width: 30%;
+    width: 40%;
     position: relative;
-    left: 400px;
+    left: 200px;
     top: 30px;
     text-align: center;
 
@@ -291,8 +291,8 @@ h1 {
 
 .project {
 
-    width: 1570px;
-    height: 370px;
+    width: 90%;
+    height: 360px;
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
     margin-left: 100px;
@@ -305,13 +305,13 @@ h1 {
 
 .project-1 {
 
-    width: 1570px;
+    width: 90%;
     height: 680px;
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
     margin-left: 100px;
     border-radius: 2rem;
-  
+    font-size: 1.3rem;
     margin-top:10px;
     display: flex;
     justify-content: center;
@@ -339,7 +339,7 @@ h1 {
 .project p {
     line-break: strict;
     padding-top: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-variant: normal;
 
 }
@@ -359,7 +359,7 @@ h1 {
     color: rgb(0, 0, 0);
     padding-top: 30px;
     padding-left: 30px;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 
@@ -381,8 +381,8 @@ h1 {
 
 
 .con {
-    margin-right: 40px;
-    width: 150px;
+    margin-right: 20px;
+    width: 200px;
     height: 150px;
     margin-left: 20px;
 
@@ -397,14 +397,14 @@ h1 {
 
 }
 
-.con:hover {
+/* .con:hover {
     transform: scale(1.2);
-}
+} */
 
 .contact1 {
     margin: 130px;
     padding: 40px 70px;
-    width: 30%;
+    width: 35%;
     height: 72%;
     font-size: 3.5rem;
     background-color: rgba(0, 0, 0, 0.774);
