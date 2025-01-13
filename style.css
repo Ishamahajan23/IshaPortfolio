@@ -14,7 +14,7 @@ body {
 
 
 }
-/* 
+
 .container {
     width: 100%;
     box-sizing: content-box;
@@ -578,17 +578,17 @@ textarea .form-control {
     left: 120px;
     top: 50px;
 }
- */
-@media only screen and (max-width:1920px) {
+
+/* @media only screen and (max-width:1920px) {
 
     html,
     body {
         height: 100%;
         width: 100%;
 
+ */
 
-
-    }
+    /* }
 
     .container {
         width: 100%;
@@ -902,7 +902,7 @@ header input {
         background-color: rgb(255, 126, 126);
         color: black;
         /* transform: scale(1.1); */
-
+/* 
     }
 
     .project img,
@@ -1152,7 +1152,7 @@ header input {
         top: 50px;
     }
 
-}
+} */ 
 
 /* rresponsive for mobile */
 @media only screen and (max-width: 740px) {
